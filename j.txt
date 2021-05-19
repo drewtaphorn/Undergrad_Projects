@@ -1,6 +1,0 @@
-Private Sub Reformat_Results_Click()
-    Call_Result_Information
-End Sub
-Private Sub Send_To_Ligo_Exports_Click()
-    Call Create_Ligo_Exports_File
-End Sub
