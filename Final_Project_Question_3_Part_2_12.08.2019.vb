@@ -32,7 +32,7 @@
     End Sub
 
     Private Sub Home_Click(sender As Object, e As EventArgs) Handles Home.Click
-        Form1.Show()
+        Final_Project_Question_3_Part_1_12.08.2019.Show()
         Me.Hide()
     End Sub
 End Class
