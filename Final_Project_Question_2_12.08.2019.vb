@@ -1,4 +1,4 @@
-﻿Public Class Form1
+Public Class Final_Project_Question_2_12.08.2019
     Public Shared HomeworkGrades(9) As Decimal
     Public Shared QuizGrades(4) As Decimal
     Public Shared TestGrades(1) As Decimal
