@@ -1,11 +1,11 @@
-﻿Public Class Form3
+﻿Public Class Final_Project_Question_3_Part_3_12.08.2019
     Private Sub Login_Click(sender As Object, e As EventArgs) Handles Login.Click
         Dim Username, Password As String
         Username = Username_Txt.Text
         Password = Password_Txt.Text
-        For i As Integer = 0 To Form2.Count - 1
-            If Username = Form2.Customers(i, 0) And Password = Form2.Customers(i, 1) Then
-                MsgBox("Welcome " & Form2.Customers(i, 2) & "!")
+        For i As Integer = 0 To Final_Project_Question_3_Part_2_12.08.2019.Count - 1
+            If Username = Final_Project_Question_3_Part_2_12.08.2019.Customers(i, 0) And Password = Final_Project_Question_3_Part_2_12.08.2019.Customers(i, 1) Then
+                MsgBox("Welcome " & Final_Project_Question_3_Part_2_12.08.2019.Customers(i, 2) & "!")
                 Exit Sub
             End If
         Next
@@ -16,7 +16,7 @@
 
 
     Private Sub Home_Click(sender As Object, e As EventArgs) Handles Home.Click
-        Form1.Show()
+        Final_Project_Question_3_Part_1_12.08.2019.Show()
         Me.Hide()
 
         Username_Txt.Clear()
@@ -25,7 +25,7 @@
 
     Private Sub Forgot_Password_Click(sender As Object, e As EventArgs) Handles Forgot_Password.Click
 
-        Form4.Show()
+        Final_Project_Question_3_Part_4_12.08.2019.Show()
         Me.Hide()
 
     End Sub
